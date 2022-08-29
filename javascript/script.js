@@ -3,6 +3,12 @@ const toggleClose = document.getElementById("toggleclose")
 const menuaccCon = document.getElementById("menuacccontainer")
 const iconOpen = document.querySelector(".fa-bars")
 const iconClose = document.querySelector(".fa-close")
+const menuCon = document.getElementById("menucontainer")
+
+menuCon.addEventListener("click", () =>{
+    menuaccCon.style.opacity = "0"
+    menuaccCon.style.height = "0"
+})
 
 
 toggleOpen.addEventListener("click", ()=>{
